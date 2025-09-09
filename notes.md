@@ -33,10 +33,7 @@ Discrete variables are able to be counted, and categorical variables are able to
 Knowing what type of features you have in a dataset, and what outcomes you're looking for, will help you to determine the most applicable ML model.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6f945f93-f1df-42be-8b4c-10107b5d30bd" />
+  <img src="https://github.com/user-attachments/assets/dfd94014-2746-4de8-81f3-ff3e9fddf62d" />
 </p>
-
-
-
 
   
