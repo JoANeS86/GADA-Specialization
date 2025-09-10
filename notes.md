@@ -49,13 +49,11 @@ know anything about the content itself).
 Natural Language Processing, or NLP, could be used too (document-term matrix: A mathematical matrix that describes the frequency of terms that occur 
 in each document in a collection.)
 
-
 Build ethical models
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e3b3fe71-1ec5-4270-9207-10da2a798be5" />
 </p>
-
 
   - Integrated Development Environment (IDE): A piece of software that has an interface to write, run, and test a piece of code.
 
