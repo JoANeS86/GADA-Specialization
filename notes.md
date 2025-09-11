@@ -2,7 +2,7 @@
 
 ## The Nuts and Bolts of Machine Learning
 
-<ins>The different types of Machine Learning</ins>
+#### <ins>The different types of Machine Learning</ins>
 
   - Supervised Machine Learning: Uses labeled datasets to train algorithms to classify or predict outcomes.
 
@@ -64,10 +64,22 @@ The two main types of Python files are known as Python scripts and Python notebo
     Python notebooks are better for exploratory analyses, presentations, or anything that needs to be human-facing. You are
     able to insert images, text, and links directly into the code.
 
+More about Python packages
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3d70a59b-de09-4f30-8129-a8d8a71a63e0" />
+</p>
 
+Generally, there are 3 types of Python packages:
 
+  - Operational packages: They load, structure and prepare the dataset for further analysis (E.g., Pandas, Numpy, Scipy).
+  - Data Visualization packages: They allow you to create plots and graphics of data (E.g., Matplotlib, Seaborn, Plotly).
+  - Machine Learning packages: They give many functions to help build models from a dataset, along with functionality to examine
+    the model once it has been built (E.g., Sklearn).
 
+Apart from these, Python has thousands and thousands of packages publicly available.
+
+#### <ins>Workflow for building complex models</ins>
 
 
 
