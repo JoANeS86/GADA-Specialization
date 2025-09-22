@@ -121,9 +121,9 @@ Class imbalance: When a dataset has a predictor variable that contains more inst
 There are two general strategies to balance a dataset, and the method that is better to use generally is decided by how much data you have in the first place: Downsampling and Upsampling.
 
     Downsampling: Downsampling is the process of making the minority class represent a larger share of the whole dataset simply by
-    removing observations from the majority class. It is mostly used with datasets that are large. But how large is large enough to
-    consider downsampling? Tens of thousands is a good rule of thumb, but ultimately this needs to be validated by checking that
-    model performance doesn’t deteriorate as you train with less data. 
+    removing observations from the majority class. It is mostly used with datasets that are large. But how large is large
+    enough to consider downsampling? Tens of thousands is a good rule of thumb, but ultimately this needs to be validated by
+    checking that model performance doesn’t deteriorate as you train with less data. 
 
     Upsampling: Upsampling is basically the opposite of downsampling, and is done when the dataset doesn’t have a very large number
     of observations in the first place. Instead of removing observations from the majority class, you increase the number of
