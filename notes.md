@@ -27,10 +27,12 @@ programmed to do so.
 Supervised learning models that make predictions that are on a continuum are called **regression algorithms**.
 
     Continuous variables: Variables that can take on an infinite and uncountable set of values.
+    
     Categorical variables: Variables that contain a finite number of groups or categories.
+    
     Discrete features: Features with a countable number of values between any two values.
 
-Discrete variables are able to be counted, and categorical variables are able to be grouped.
+**Discrete variables are able to be counted, and categorical variables are able to be grouped**.
 
 Knowing what type of features you have in a dataset, and what outcomes you're looking for, will help you to determine the most applicable ML model.
 
@@ -80,6 +82,61 @@ Generally, there are 3 types of Python packages:
 Apart from these, Python has thousands and thousands of packages publicly available.
 
 #### <ins>Workflow for building complex models</ins>
+
+  - Plan
+
+In this section, the course is focused on ML, so it'll continue with an example related to it. But putting that apart, you need to think about whether you need a model in the first place! Many analytical tasks do not
+require the creation of a model, and you could spend time creating something that is not necessary to what you’re trying to achieve.
+
+Let's continue with ML and knowing what you need for a problem: The first thing to do when forming your plan is to consider the end goal, and something that can be determined immediately is what type of machine learning
+model you’ll need.
+
+    Supervised models are used to make predictions about unseen events. These types of models use labeled data, and the model
+    will use these labels and the predictor variables present to learn from the dataset. And when given new data points,
+    they’re able to make a prediction of the label.
+
+    Unsupervised models, on the other hand, don’t really make predictions. They are used to discover the natural structure
+    of the data, finding relationships within unlabeled data.
+
+  - Analyze
+
+The main focus of the analyze stage is to develop a deeper understanding of the data, while keeping in mind what the model needs to eventually predict.
+
+**Feature engineering** is the process of using practical, statistical, and data science knowledge, to <ins>select, transform, or extract</ins> characteristics, properties, and attributes, from raw data.
+
+    Feature selection: The goal of this type of feature engineering is to select the features in the data that contribute the most
+    to predicting your response variable. In other words, you drop features that do not help in making a prediction.
+    
+    Feature transformation: In feature transformation, data professionals take the raw data in the data set and create features
+    that are suitable for modeling. This process is done by modifying the existing features in a way that improves accuracy when
+    training the model (Transformation = Change the existing features).
+
+    Feature extraction: Taking multiple features to create a new one that would improve the accuracy of the algorithm
+    (Extraction = Create new features from the data).
+
+Datasets used in the workplace can sometimes require multiple rounds of EDA and feature engineering to get everything in a suitable format to train a model.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
