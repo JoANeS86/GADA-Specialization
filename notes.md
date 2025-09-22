@@ -116,8 +116,25 @@ The main focus of the analyze stage is to develop a deeper understanding of the 
 
 Datasets used in the workplace can sometimes require multiple rounds of EDA and feature engineering to get everything in a suitable format to train a model.
 
+Class imbalance: When a dataset has a predictor variable that contains more instances of one outcome that another.
 
+There are two general strategies to balance a dataset, and the method that is better to use generally is decided by how much data you have in the first place: Downsampling and Upsampling.
 
+    Downsampling: Downsampling is the process of making the minority class represent a larger share of the whole dataset simply by
+    removing observations from the majority class. It is mostly used with datasets that are large. But how large is large enough to
+    consider downsampling? Tens of thousands is a good rule of thumb, but ultimately this needs to be validated by checking that
+    model performance doesn’t deteriorate as you train with less data. 
+
+    Upsampling: Upsampling is basically the opposite of downsampling, and is done when the dataset doesn’t have a very large number
+    of observations in the first place. Instead of removing observations from the majority class, you increase the number of
+    observations in the minority class. 
+
+In both cases, upsampling and downsampling, it is important to leave a partition of test data that is unaltered by the sampling adjustment. You do this because you need to understand how well your
+model predicts on the actual class distribution observed in the world that your data represents. In the case of the spam detector example, it’s great if your model can score well on resampled data
+that is 80% not spam and 20% spam, but you need to know how it will work when deployed in the real world, where spam emails are much less frequent. This is why the test holdout data is not rebalanced.
+
+Class rebalancing should be reserved for situations where other alternatives have been exhausted and you still are not achieving satisfactory model results (class imbalance isn't always
+a problem).
 
 
 
