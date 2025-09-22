@@ -104,8 +104,8 @@ The main focus of the analyze stage is to develop a deeper understanding of the 
 
 **Feature engineering** is the process of using practical, statistical, and data science knowledge, to <ins>select, transform, or extract</ins> characteristics, properties, and attributes, from raw data.
 
-    Feature selection: The goal of this type of feature engineering is to select the features in the data that contribute the most
-    to predicting your response variable. In other words, you drop features that do not help in making a prediction.
+    Feature selection: The goal of this type of feature engineering is to select the features in the data that contribute the
+    most to predicting your response variable. In other words, you drop features that do not help in making a prediction.
     
     Feature transformation: In feature transformation, data professionals take the raw data in the data set and create features
     that are suitable for modeling. This process is done by modifying the existing features in a way that improves accuracy when
