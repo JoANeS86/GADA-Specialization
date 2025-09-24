@@ -163,7 +163,7 @@ The process of finding the posterior probability needs to be done for every poss
   <img src="https://github.com/user-attachments/assets/a50ee723-7c90-48c0-92c4-68d50e51ba39" />
 </p>
 
-
+There are several implementations of Naive Bayes in scikit-learn, all of which are found in the **sklearn.naive_bayes** module.
 
 
 
