@@ -136,6 +136,33 @@ that is 80% not spam and 20% spam, but you need to know how it will work when de
 Class rebalancing should be reserved for situations where other alternatives have been exhausted and you still are not achieving satisfactory model results (class imbalance isn't always
 a problem).
 
+  - Construct
+
+Here, we're bringing the model to life: In this case, we're building a model called Naive Bayes.
+
+    Naive Bayes: A supervised classification technique that is based on Bayes' Theorem with an assumption
+    of independence among predictors.
+
+Naive Bayes is a supervised classification technique based on Bayes' theorem with an assumption of independence among predictors. The effect of the value of a predictor variable on a given class is not affected by the values of other predictors. Let's break it down. Bayes' theorem gives us a method of calculating the **<ins>posterior probability</ins>**, which is the likelihood of an event occurring after taking into consideration new information.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c04c7bc7-2768-4881-93ad-2a8a90f60d22" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/26db510d-4b51-46a4-94c8-24416f762a03" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/17965dc2-0e32-4461-8856-958d6fcf033d" />
+</p>
+
+The process of finding the posterior probability needs to be done for every possible class that is potentially being predicted. In this case, there are only two outcomes; play or don't play.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a50ee723-7c90-48c0-92c4-68d50e51ba39" />
+</p>
+
 
 
 
