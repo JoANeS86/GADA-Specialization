@@ -143,7 +143,7 @@ Here, we're bringing the model to life: In this case, we're building a model cal
     Naive Bayes: A supervised classification technique that is based on Bayes' Theorem with an assumption
     of independence among predictors.
 
-**Naive Bayes** is a supervised classification technique based on Bayes' theorem with an assumption of independence among predictors. The effect of the value of a predictor variable on a given class is not affected by the values of other predictors. Let's break it down. Bayes' theorem gives us a method of calculating the **<ins>posterior probability</ins>**, which is the likelihood of an event occurring after taking into consideration new information.
+**Naive Bayes** is a <ins>supervised classification</ins> technique based on Bayes' theorem with an assumption of independence among predictors. The effect of the value of a predictor variable on a given class is not affected by the values of other predictors. Let's break it down. Bayes' theorem gives us a method of calculating the **<ins>posterior probability</ins>**, which is the likelihood of an event occurring after taking into consideration new information.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c04c7bc7-2768-4881-93ad-2a8a90f60d22" />
