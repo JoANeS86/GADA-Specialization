@@ -165,7 +165,11 @@ The process of finding the posterior probability needs to be done for every poss
 
 There are several implementations of Naive Bayes in scikit-learn, all of which are found in the **sklearn.naive_bayes** module.
 
+When using Python to construct and test a model, we'll use the term "**fitting a model**", which means learning the relationship between inputs and outputs using training data 
 
+    .fit(X, y)   Train the model using the input (X) and target (y) data
+
+    .predict(X)  Use the trained model to make predictions on new input data (X)
 
 
 
