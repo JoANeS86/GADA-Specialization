@@ -172,7 +172,7 @@ When using Python to construct and test a model, we'll use the term "**fitting a
     .predict(X)  Use the trained model to make predictions on new input data (X)
 
 
-
+# Add here the summary of "More about evaluation metrics for classification models.
 
 
 
