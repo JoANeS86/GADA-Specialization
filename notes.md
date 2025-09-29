@@ -175,8 +175,50 @@ When using Python to construct and test a model, we'll use the term "**fitting a
 # Add here the summary of "More about evaluation metrics for classification models".
 
 
+#### <ins>Unsupervised learning techniques</ins>
+
+K-means is an unsupervised learning algorithm that partitions a dataset into K distinct clusters by iteratively assigning data points to the nearest cluster centroid and updating the centroids to the mean of their assigned points. The goal is to minimize the variance within each cluster, grouping similar data points together. The process requires specifying the number of clusters (K) beforehand and is sensitive to initial centroid placement and outliers.
+
+    Centroid: The center of a cluster determined by the mathematical mean of all the points in that cluster.
+
+Something to be mindful of is that it's important to run the model with different starting positions for the centroids. This helps avoid poor clustering caused by <ins>local minima</ins>. In other words, not having an appropriate distance between clusters (Many ML implementations have removed this requirement, for example, in scikit-learn, **K-means++** helps to ensure that centroids aren’t initially placed very close together, which is when convergence in local minima is most likely to occur. 
+
+K-means works by minimizing intercluster variance. In other words, it aims to minimize the distance between points and their centroids. This means that K-means works best when the clusters are round. If you aren’t satisfied with the way K-means is clustering your data, don’t worry, there are many other clustering methods available to choose from.
+
+    DBSCAN
+
+    Agglomerative Clustering
+
+    Other clustering altorithms
+
+Key metrics for representing K-means clustering
+
+    Inertia: Sum of the squared distances between each observation and its nearest centroid.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b2de4c1a-ebae-4080-b2de-ca33409c0053" />
+</p>
+
+To evaluate Inertia, we use the elbow method.
+
+Remember, you want inertia to be low, but if you add more and more clusters with only minimal improvement to inertia, you’re only adding complexity without capturing real structure in the data.
+
+    Silhouette score: The mean of the silhouette coefficients of all the observations in the model.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/76825b12-7d88-4f4d-8e44-35247e214be3" />
+</p>
+
+A silhouette coefficient can range between -1 and +1. A value closer to +1 means that a point is close to other points in its own cluster and well separated from points in other clusters.
+
+Note that, unlike inertia, silhouette coefficients contain information about both intracluster distance (captured by the variable a) and intercluster distance (captured by the variable b).
+
+Use these metrics together to help inform your decision on which model to select.
 
 
+
+
+    
 
 
 
