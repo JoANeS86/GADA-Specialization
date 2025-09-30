@@ -242,6 +242,27 @@ To choose a split, we use Gini impurity, and calculate the weighted average of G
 
 
 
+Pending
+
+  - *We are using the same data to tune the hyperparameters as we are using to perform model selection. This risks potentially overfitting the
+    model to the validation data.*
+
+  - The summary of "More about evaluation metrics for classification models.
+
+  - Unsupervised (Python).
+
+  - Build a decision tree with Python (the part of GridSearchCV).
+
+
+
+
+
+
+
+
+
+
+
     
 
 
