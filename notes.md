@@ -215,6 +215,30 @@ Note that, unlike inertia, silhouette coefficients contain information about bot
 
 Use these metrics together to help inform your decision on which model to select.
 
+#### <ins>Tree-based modeling</ins>
+
+<ins>Tree-based modeling</ins>: Flow-chart-like supervised classification model and a representation of various solutions that are available to solve a given problem based on the possible outcomes of related choices. 
+
+  - Explore decision trees
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d0e9f180-2cdc-45d1-add3-d6d63a4f409e" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8f074185-26b3-4ff8-a753-6a29c122c23c" />
+</p>
+
+To choose a split, we use Gini impurity, and calculate the weighted average of Gini impurities.
+
+
+
+
+
+
+
+
+
 
 
 
