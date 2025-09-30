@@ -242,7 +242,7 @@ To choose a split, we use Gini impurity, and calculate the weighted average of G
 
 
 
-Pending
+## *Pending*
 
   - *We are using the same data to tune the hyperparameters as we are using to perform model selection. This risks potentially overfitting the
     model to the validation data.*
