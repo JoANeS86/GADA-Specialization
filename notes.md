@@ -231,11 +231,39 @@ Use these metrics together to help inform your decision on which model to select
 
 To choose a split, we use Gini impurity, and calculate the weighted average of Gini impurities.
 
+Hyperparameter tuning
+
+    - Hyperparameters: Parameters that can be set before the model is trained, like Max depth or Min samples leaf.
+
+    - GridSearch: A tool to confirm that a model achieves its intended purpose by systematically checking every
+    combination of hyper parameters to identify which set produces the best results based on the selected metric.
+
+Verify performance using validation
+
+    - Model validation is the whole process of evaluating different models, selecting one, and then continuing
+    to analyze the performance of the selected model to better understand its strengths and limitations. (Note
+    that each unique combination of hyperparameters is a different model).
+
+    - Validation can be performed using a separate partition of the data, or it can be accomplished with cross-validation
+    of the training data, or both.
+
+    - Cross-validation splits the training data into k number of folds, trains a model on k – 1 folds, and uses the fold
+    that was held out to get a validation score. This process repeats k times, each time using a different fold as the
+    validation set. 
+
+    - Cross-validation is more rigorous, and makes more efficient use of the data. It’s particularly useful for smaller datasets.
+
+    - Validation with a separate dataset is less computationally expensive, and works best with very large datasets.
+
+    - For a truly objective assessment of model performance on future data, the test data should not be used to select
+    a final model.
 
 
 
 
 
+
+## *Next: Lab - Tune and validate decision trees*
 
 
 
