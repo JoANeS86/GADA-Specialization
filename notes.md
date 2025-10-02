@@ -251,7 +251,8 @@ Verify performance using validation
     that was held out to get a validation score. This process repeats k times, each time using a different fold as the
     validation set. 
 
-    - Cross-validation is more rigorous, and makes more efficient use of the data. It’s particularly useful for smaller datasets.
+    - Cross-validation is more rigorous, and makes more efficient use of the data. It’s particularly useful for
+    smaller datasets.
 
     - Validation with a separate dataset is less computationally expensive, and works best with very large datasets.
 
@@ -263,7 +264,7 @@ Verify performance using validation
 
 
 
-## *Next: Lab - Tune and validate decision trees*
+## *Next: Exemplar - Build a decision tree*
 
 
 
