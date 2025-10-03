@@ -268,7 +268,7 @@ Bootstrap aggregation
 
 When Bagging is used with Decision Trees, we get a **Random Forest**: Ensemble of decision trees trained on bootstrapped data with randomly selected features.
 
-Random Forest models have the same hyperparameters as Decision Trees (since they're ensembles of them), but random forests also have some other hyperparameters which control the ensemble itself, like <ins>max_features</ins> or <ins>n_estimators</ins>
+Random Forest models have the same hyperparameters as Decision Trees (since they're ensembles of them), but random forests also have some other hyperparameters which control the ensemble itself, like <ins>max_features</ins> or <ins>n_estimators</ins>.
 
 
 
