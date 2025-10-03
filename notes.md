@@ -236,7 +236,7 @@ Hyperparameter tuning
     - Hyperparameters: Parameters that can be set before the model is trained, like Max depth or Min samples leaf.
 
     - GridSearch: A tool to confirm that a model achieves its intended purpose by systematically checking every
-    combination of hyper parameters to identify which set produces the best results based on the selected metric.
+    combination of hyperparameters to identify which set produces the best results based on the selected metric.
 
 Verify performance using validation
 
