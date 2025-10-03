@@ -259,8 +259,16 @@ Verify performance using validation
     - For a truly objective assessment of model performance on future data, the test data should not be used to select
     a final model.
 
+Bootstrap aggregation
 
+    - Ensemble learning (or "ensembling"): Involves building multiple models and then aggregating their outputs to make
+    a prediction.
 
+    - Base learner: Each individual model that comprises an ensemble.
+
+When Bagging is used with Decision Trees, we get a **Random Forest**: Ensemble of decision trees trained on bootstrapped data with randomly selected features.
+
+Random Forest models have the same hyperparameters as Decision Trees (since they're ensembles of them), but random forests also have some other hyperparameters which control the ensemble itself, like <ins>max_features</ins> or <ins>n_estimators</ins>
 
 
 
