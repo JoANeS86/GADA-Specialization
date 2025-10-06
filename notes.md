@@ -272,7 +272,7 @@ Random Forest models have the same hyperparameters as Decision Trees (since they
 
 
 
-## *Next: Exemplar - Build a decision tree*
+## *Next: Reference Guide: Validation and Cross Validation. / Exemplar: Build a random forest model. / Case Study. / ADA BOOST.*
 
 
 
