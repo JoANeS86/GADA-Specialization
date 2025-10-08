@@ -272,13 +272,17 @@ Random Forest models have the same hyperparameters as Decision Trees (since they
 
 Introduction to boosting
 
-    - Boosting: Supervised learning technique that builds an ensemble of weak learners sequentially, with each consecutive learner trying to correct the errors of the one that preceded it.
+    - Boosting: Supervised learning technique that builds an ensemble of weak learners sequentially, with each
+    consecutive learner trying to correct the errors of the one that preceded it.
 
-    - Adaptive Boosting (AdaBoost): Tree-based boosting methodology where each consecutive base learner assigns greater weight to the observations incorrectly predicted by the preceding learner.
+    - Adaptive Boosting (AdaBoost): Tree-based boosting methodology where each consecutive base learner assigns
+    greater weight to the observations incorrectly predicted by the preceding learner.
 
-    - Gradient Boosting: A boosting methodology where each base learner in the sequence is built to predict the residual errors of the model that preceded it.
+    - Gradient Boosting: A boosting methodology where each base learner in the sequence is built to predict the
+    residual errors of the model that preceded it.
 
-    - Gradient Boosting Machines (GBMs): Model ensembles that use gradient boosting (they're often called black-box models, this is, a model whose predictions cannot be precisely explained).
+    - Gradient Boosting Machines (GBMs): Model ensembles that use gradient boosting (they're often called
+    black-box models, this is, a model whose predictions cannot be precisely explained).
 
     - XGBoost: Extreme gradient boosting, an optimized GBM package.
 
