@@ -288,7 +288,7 @@ Introduction to boosting
 
 
     
-## *Exemplar: Course 6 Automatidata project exemplar lab.*
+## *Exemplar: Course 6 Automatidata project exemplar lab. --> Analyze.*
 ## *Next: Reference Guide: Validation and Cross Validation. / Exemplar: Build a random forest model. / Case Study.*
 
 
